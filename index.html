@@ -10,13 +10,26 @@
 
 <div id="quiz-container">
   <h1>🧩 Test Completo de Python</h1>
-  <div id="counter"></div>
-  <div id="scoreboard"></div>
+
+  <!-- HEADER CON CONTADOR, PUNTUACIÓN Y TIEMPO -->
+  <div id="header">
+    <span id="counter">Pregunta 1 de X</span>
+    <span id="scoreboard">✅ Aciertos: 0 ❌ Fallos: 0</span>
+    <span id="timer">⏱ Tiempo: 00:00</span>
+  </div>
+
+  <!-- PREGUNTA -->
   <div id="question" class="question"></div>
+
+  <!-- OPCIONES -->
   <div id="options"></div>
+
+  <!-- BOTONES -->
   <button id="next-btn">Siguiente</button>
-  <div id="result"></div>
   <button id="restart-btn">Reiniciar Test</button>
+
+  <!-- RESULTADO FINAL -->
+  <div id="result"></div>
 </div>
 
 <script src="script.js"></script>
