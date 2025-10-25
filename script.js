@@ -258,4 +258,3 @@ function stopTimer() {
 }
 
 startTest();
-
